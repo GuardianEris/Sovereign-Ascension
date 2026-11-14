@@ -33,3 +33,15 @@ Double-clicking `index.html` may show the interface, but offline installation re
 - This app uses no paid services or external dependencies.
 - This is a first version, not medically personalized guidance. Use comfortable exercise intensity and follow professional advice when needed.
 - To update app code, upload changed files to GitHub. If an old version persists, refresh/reopen the app. For future updates, increment the cache name in `sw.js`.
+
+
+## Version 2: Custom quests and daily planner
+
+- **Planner tab:** Four sections matching a daily organization checklist, with typed tasks, five rotating statuses, optional daily recurrence, and carry-forward for unfinished one-time tasks.
+- **Quests tab:** Create a custom objective (such as Make bed) in a quest category. Choose Daily or Selected date only. Tick the objective and claim 5 bonus XP.
+- Custom objectives are optional and do not block built-in quest completion. A maximum of five custom quest rewards per day count toward XP, preventing accidental unlimited XP farming.
+- Both features save in the same browser storage and are included in JSON export/import backups. Existing version 1 progress is preserved when updating website files.
+
+### Update your live GitHub Pages site
+
+Upload the contents of the `sovereign-ascension` folder to the **root** of the same repository, replacing files with matching names (`app.js`, `style.css`, `sw.js`, etc.). Do **not** delete the repository or clear Safari website data. The service worker cache name has been updated to v2. If the old version remains visible, close and reopen the website, then refresh once online. Export a backup before updating as a precaution.
