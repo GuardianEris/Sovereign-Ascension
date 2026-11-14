@@ -45,3 +45,10 @@ Double-clicking `index.html` may show the interface, but offline installation re
 ### Update your live GitHub Pages site
 
 Upload the contents of the `sovereign-ascension` folder to the **root** of the same repository, replacing files with matching names (`app.js`, `style.css`, `sw.js`, etc.). Do **not** delete the repository or clear Safari website data. The service worker cache name has been updated to v2. If the old version remains visible, close and reopen the website, then refresh once online. Export a backup before updating as a precaution.
+
+
+## Version 2.1 — specific weekday planner tasks
+In Planner, choose **One time**, **Daily**, or **Specific days** for each new task. For Specific days, choose one or more weekdays. For example, “Take garbage out” → Personal Must Finish → Specific days → Wed. These tasks appear on selected weekdays starting with the creation date, and completion status is stored separately per date. Weekly tasks are excluded from Carry Forward and never earn XP. Existing daily and one-time tasks remain supported.
+
+### Update an existing GitHub Pages installation
+Back up progress using Settings → Export JSON first. Extract the ZIP and upload the files *inside* the sovereign-ascension folder into the root of your existing repository, replacing the same-named files and committing changes. Keep the same website URL and browser storage. Do not clear Safari site data. If an old version remains, wait for the GitHub Pages deployment and reload; the service worker cache name has changed for this release.
