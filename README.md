@@ -52,3 +52,8 @@ In Planner, choose **One time**, **Daily**, or **Specific days** for each new ta
 
 ### Update an existing GitHub Pages installation
 Back up progress using Settings → Export JSON first. Extract the ZIP and upload the files *inside* the sovereign-ascension folder into the root of your existing repository, replacing the same-named files and committing changes. Keep the same website URL and browser storage. Do not clear Safari site data. If an old version remains, wait for the GitHub Pages deployment and reload; the service worker cache name has changed for this release.
+
+
+## Version 2.2 — Personalization
+
+Use **Builder** to customize each weekday's workout, recovery routine, cleaning, skincare, and mental quests. Add/edit/remove objectives and update quest titles. Use **Settings** to rename your character and change hydration targets. In **Fitness**, type an optional custom exercise name to log exercises not in the presets. Each device has its own local save; no shared login or live co-op synchronization. Export JSON backups before upgrades.
