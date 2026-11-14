@@ -61,3 +61,12 @@ Use **Builder** to customize each weekday's workout, recovery routine, cleaning,
 ## Version 2.3 — Workout and objective ordering
 
 In Builder, use ↑ Up and ↓ Down to reorder objectives within any weekday and category. The chosen order appears in Quests and Fitness. Unclaimed checkmarks are moved with their objectives where applicable; claimed XP is retained. Existing locally saved data uses the same storage key and backup format. Export a JSON backup before updating.
+
+
+## Version 2.4 — The Royal Polish
+
+- Larger, labeled **Move up** and **Move down** buttons in the Builder, with clearer touch targets.
+- Harmonized purple inputs, select menus, and text areas instead of harsh near-black fields.
+- Improved spacing and mobile-friendly two-column Builder controls.
+- Versioned script and stylesheet URLs plus a new offline cache identifier to help browsers load updated releases.
+- No changes to the saved-data schema, XP, workout ordering logic, or existing planner tasks. Export a JSON backup before updating.
