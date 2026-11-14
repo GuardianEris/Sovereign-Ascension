@@ -13,3 +13,6 @@
 .plan-repeat{max-width:190px;min-width:130px}
 
 .builder-item{border:1px solid #4b3d62;border-radius:12px;padding:12px;margin:10px 0;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.builder-item div:first-child{flex:1;min-width:140px}.builder-item small{display:block;color:#bdb0d3;margin-top:4px;white-space:pre-wrap}.builder-item .actions{margin:0}.builder-item button{font-size:12px;padding:8px 10px}#builder-form{margin-top:18px;border-top:1px solid #4b3d62;padding-top:16px}#builder-form label{display:block;margin:10px 0}
+
+/* v2.3: compact, touch-friendly objective ordering */
+.builder-item .actions{display:flex;flex-wrap:wrap;gap:6px}.builder-item .actions button{min-height:38px}.builder-item .actions button:disabled{opacity:.32}

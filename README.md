@@ -57,3 +57,7 @@ Back up progress using Settings → Export JSON first. Extract the ZIP and uploa
 ## Version 2.2 — Personalization
 
 Use **Builder** to customize each weekday's workout, recovery routine, cleaning, skincare, and mental quests. Add/edit/remove objectives and update quest titles. Use **Settings** to rename your character and change hydration targets. In **Fitness**, type an optional custom exercise name to log exercises not in the presets. Each device has its own local save; no shared login or live co-op synchronization. Export JSON backups before upgrades.
+
+## Version 2.3 — Workout and objective ordering
+
+In Builder, use ↑ Up and ↓ Down to reorder objectives within any weekday and category. The chosen order appears in Quests and Fitness. Unclaimed checkmarks are moved with their objectives where applicable; claimed XP is retained. Existing locally saved data uses the same storage key and backup format. Export a JSON backup before updating.
